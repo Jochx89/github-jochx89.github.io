@@ -8,6 +8,7 @@ body {
 // Responsive typography sizes using Bootstrap mixins for the media querries
 html {
   font-size: 14px;
+  font-family: $font-main;
 }
 
 @include media-breakpoint-up(sm) {
