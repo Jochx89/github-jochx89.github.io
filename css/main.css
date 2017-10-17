@@ -25,7 +25,7 @@
  }
 
  .intro {
-     display: inline-block
+     display: inline-block;
      max-width: 960px;
      margin: 0 auto;
      padding: 8% 0;
@@ -135,7 +135,7 @@
      display: inline;
      padding-right: 30px;
  }
- 
+
  .social li a {
      color: #fff;
      padding: 0.2em;
