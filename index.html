@@ -1,43 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Jose Zambrano</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div id="top" class="top"></div>
-        <div class="intro">
-            <div class="name">
-                <h1>Jose Zambrano</h1>
+    <div>
+        <nav class="navbar navbar-default navigation-clean" style="background-color:rgba(255,255,255,0);">
+            <div class="container">
+                <div class="navbar-header"><a class="navbar-brand" href="#">Jose Zambrano</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active" role="presentation"><a href="#">Home </a></li>
+                        <li role="presentation"><a href="#">About Me</a></li>
+                        <li role="presentation"><a href="#">My work </a></li>
+                        <li role="presentation"><a href="#">Contact </a></li>
+                    </ul>
+                </div>
             </div>
-            <h2>Front End Web Developer</h2>
+        </nav>
+    </div>
+    <div class="jumbotron" style="background-image:url(&quot;img/background.jpg&quot;);">
+        <h1 id="jumbotron-text">Hola! Welcome to my Web</h1>
+        <p>I'm Jose, a Graphic designer from Ecuador. I love working with Creative Graphic Solutions for business &amp; Entertainment.</p>
+        <p><a class="btn btn-default" role="button" href="#">Learn more</a></p>
+    </div>
+    <h1 class="heading-title">About Me</h1>
+    <div class="highlight-phone">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="intro">
+                        <h2>My name is José</h2>
+                        <p>I'm a Graphic designer from Ecuador. I love working with Creative Graphic Solutions for business and Entertainment, I've been successfully working in Branding, web design and internet applications design for the last four years. I'm currently studying Interactive Media Design in Algonquin College, Ottawa. I want to have a complete understanding of web development, from every angle and merge it with my current design skills. I'm an active person, experienced working with groups who is eager to learn more a give its best. Thanks for stopping by!!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 hidden-xs">
+                    <div class="iphone-mockup"><img src="img/yo.png" class="device">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
-    <div class="wrapper">
-            <div class="about-content">
-                <h3>I'm Jose</h3>
-                <p>I'm a Graphic designer from Ecuador. I love working with Creative Graphic Solutions for business and Entertainment, I've been successfully working in Branding, web design and internet applications design for the last four years. I'm currently studying Interactive Media Design in Algonquin College, Ottawa. I want to have a complete understanding of web development, from every angle and merge it with my current design skills. I'm an active person, experienced working with groups who is eager to learn more a give its best. Thanks for stopping by!!
-                </p>
+    </div>
+    <h1 class="heading-title02">Portfolio </h1>
+    <div class="photo-gallery">
+        <div class="container">
+            <div class="row photos">
+                <div class="col-lg-3 col-md-4 col-sm-6 item">
+                    <a href="img/bonsai-640x426.jpg" data-lightbox="photos"><img class="img-responsive" src="img/bonsai-640x426.jpg"></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 item">
+                    <a href="img/diary-640x426.jpg" data-lightbox="photos"><img class="img-responsive" src="img/diary-640x426.jpg"></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 item">
+                    <a href="img/markus-640x426.jpg" data-lightbox="photos"><img class="img-responsive" src="img/markus-640x426.jpg"></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 item">
+                    <a href="img/batlepoint-640x426.jpg" data-lightbox="photos"><img class="img-responsive" src="img/batlepoint-640x426.jpg"></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 item">
+                    <a href="img/vicky-640x426.jpg" data-lightbox="photos"><img class="img-responsive" src="img/vicky-640x426.jpg"></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 item">
+                    <a href="img/paint-640x426.jpg" data-lightbox="photos"><img class="img-responsive" src="img/paint-640x426.jpg"></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 item">
+                    <a href="img/mud-640x426.jpg" data-lightbox="photos"><img class="img-responsive" src="img/mud-640x426.jpg"></a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 item">
+                    <a href="img/nhc-640x426.jpg" data-lightbox="photos"><img class="img-responsive" src="img/nhc-640x426.jpg"></a>
+                </div>
             </div>
-  </div>
-        <h3>My work</h3
-            <div class="contact-content">
-                <h4>Have a project in mind? Email me: <a class="email" href="mailto:jochx89@gmail.com">jochx89@gmail.com</a></h4>
+        </div>
+    </div>
+    <h1 class="heading-title02">Contact </h1>
+    <div class="container">
+        <div class="row" id="contact">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label class="control-label">Name </label>
+                        <input class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Email </label>
+                        <input class="form-control" type="email">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Coments </label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+                </form>
+                <button class="btn btn-default" type="button">Send Contact Request</button>
             </div>
-        <h3>Contact Me</h3>
+            <div class="col-md-6"><img class="img-circle img-responsive" src="img/hehzxzzz.png" id="pallo"></div>
+        </div>
+    </div>
+    <div class="footer-basic">
         <footer>
-            <div class="footer-content">
-                <p class="credit">&copy; Copyright 2017 Jose Zambrano. <br> designed and developed by Jose Zambrano.</p>
-                <ul class="social">
-                    <li><a href="https://www.facebook.com/jochzambrano" target="_blank">Facebook</a></li>
-                    <li><a href="https://www.behance.net/JochZambrano" target="_blank">Behance</a></li>
-                    <li><a href="https://www.linkedin.com/in/jose-zambrano-778717a2/" target="_blank">Linkedin</a></li>
-                </ul>
-            </div>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2016</p>
         </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
 </html>
