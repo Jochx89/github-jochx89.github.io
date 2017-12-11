@@ -4,6 +4,7 @@
     <meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Jose Zambrano</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -17,21 +18,21 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav navbar-right" style="display: inline-block;">
-                        <li class="active" role="presentation"><a href="#">Home </a></li>
-                        <li role="presentation"><a href="#">About Me</a></li>
-                        <li role="presentation"><a href="#">My work </a></li>
-                        <li role="presentation"><a href="#">Contact </a></li>
+                        <li role="presentation"><a href="#home">Home </a></li>
+                        <li role="presentation"><a href="#about">About Me</a></li>
+                        <li role="presentation"><a href="#portfolio">My work </a></li>
+                        <li role="presentation"><a href="#contact">Contact </a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    <div class="jumbotron" style="background-image:url(&quot;img/background.jpg&quot;);">
+    <div class="jumbotron" id="home" style="background-image:url(&quot;img/background.jpg&quot;);">
         <h1 id="jumbotron-text">Hola! Welcome to my Web</h1>
         <p>I'm Jose, a Graphic designer from Ecuador. I love working with Creative Graphic Solutions for business &amp; Entertainment.</p>
-        <p><a class="btn btn-default" role="button" href="#">Learn more</a></p>
+        <p><a class="btn btn-default" style=" background-color: white; color: black; background-image:none; text-shadow:none; font-size: 16px; padding-left: 20px; padding-right: 20px; border-radius: 15px;" role="button" href="#">Contact Me</a></p>
     </div>
-    <h1 class="heading-title">About Me</h1>
+    <h1 class="heading-title" id="about">About Me</h1>
     <div class="highlight-phone">
         <div class="container">
             <div class="row">
@@ -43,13 +44,12 @@
                 </div>
                 <div class="col-sm-4 hidden-xs">
                     <div class="iphone-mockup"><img src="img/yo.png" class="device">
-                        <div class="screen"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <h1 class="heading-title02">Portfolio </h1>
+    <h1 class="heading-title02"  id="portfolio">Portfolio </h1>
     <div class="photo-gallery">
         <div class="container">
             <div class="row photos">
@@ -80,10 +80,10 @@
             </div>
         </div>
     </div>
-    <h1 class="heading-title02">Contact </h1>
+    <h1 class="heading-title02" id="contact">Contact </h1>
     <div class="container">
         <div class="row" id="contact">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <form>
                     <div class="form-group">
                         <label class="control-label">Name </label>
@@ -98,14 +98,15 @@
                         <textarea class="form-control"></textarea>
                     </div>
                 </form>
-                <button class="btn btn-default" type="button">Send Contact Request</button>
+                <div class="centerbutton">
+                <button class="btn btn-default" style=" background-color: black; color: white; background-image:none; text-shadow:none; font-size: 16px; padding-left: 20px; padding-right: 20px; border-radius: 15px;" type="button">Send Contact Request</button>
+               </div>
             </div>
-            <div class="col-md-6"><img class="img-circle img-responsive" src="img/hehzxzzz.png" id="pallo"></div>
         </div>
     </div>
     <div class="footer-basic">
         <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <div class="social"><a href="https://www.linkedin.com/in/jose-zambrano-778717a2/"><i class="icon ion-social-linkedin" src=""></i></a><a href="https://www.youtube.com/channel/UC9m_oeYeviYM6diNnLXIZ4Q?view_as=subscriber"><i class="icon ion-social-youtube"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
             <ul class="list-inline">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
@@ -113,7 +114,7 @@
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Privacy Policy</a></li>
             </ul>
-            <p class="copyright">Company Name © 2016</p>
+            <p class="copyright">Jose Zambrano © 2017</p>
         </footer>
     </div>
     <script src="js/jquery.min.js"></script>

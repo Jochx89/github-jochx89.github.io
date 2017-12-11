@@ -1359,6 +1359,15 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     .form-inline .has-feedback .form-control-feedback {
       top: 0; } }
 
+    .control-label {
+    font-size: 16px;
+    }
+
+    .centerbutton{
+    text-align:center;
+    margin-top: 50px;
+    }
+
 .btn {
   display: inline-block;
   font-weight: normal;
@@ -2362,6 +2371,9 @@ tbody.collapse.show {
     padding-left: 0; } }
 
 @media (min-width: 576px) {
+  .navigation-clean .navbar-brand {
+    color: white;
+  }
   .navbar-expand-sm {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -2385,6 +2397,10 @@ tbody.collapse.show {
       display: none; } }
 
 @media (max-width: 767px) {
+
+  .navigation-clean .navbar-brand {
+    color: black;
+  }
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
@@ -5613,7 +5629,7 @@ a.text-dark:focus, a.text-dark:hover {
   margin-bottom: 0; }
   .navigation-clean .navbar-brand {
     font-weight: bold;
-    color: white; }
+    }
     .navigation-clean .navbar-brand:hover {
       color: #222; }
   .navigation-clean.navbar-inverse .navbar-brand:hover {
@@ -5771,7 +5787,7 @@ a.text-dark:focus, a.text-dark:hover {
     color: inherit; }
   .highlight-phone .intro {
     font-size: 18px;
-    max-width: 500px;
+    max-width: 600px;
     line-height: 1.5; }
     .highlight-phone .intro p {
       margin-bottom: 35px; }
@@ -5799,10 +5815,12 @@ a.text-dark:focus, a.text-dark:hover {
     max-width: 260px;
     margin-top: -30px;
     margin-bottom: -230px;
-    transform: rotate(-15deg); }
+    transform: rotate(-15deg);
+   }
     .highlight-phone .iphone-mockup img.device {
       width: 100%;
-      height: auto; }
+      height: auto;
+     }
     .highlight-phone .iphone-mockup .screen {
       position: absolute;
       width: 88%;
@@ -5815,7 +5833,8 @@ a.text-dark:focus, a.text-dark:hover {
       overflow: hidden;
       background: url(img/);
       background-size: cover;
-      background-position: center; }
+      background-position: center;
+    }
       .highlight-phone .iphone-mockup .screen:before {
         content: '';
         background-color: #fff;
@@ -5826,6 +5845,12 @@ a.text-dark:focus, a.text-dark:hover {
         right: -60%;
         transform: rotate(-19deg);
         opacity: 0.2; }
+
+        .device {
+          border-radius: 200px;
+          box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          margin-top: 50px;
+        }
 
 @media (max-width: 767px) {
   .highlight-phone {
